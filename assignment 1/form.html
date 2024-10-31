@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMSR</title>
+</head>
+<body style="background-color: blanchedalmond; justify-content: center; width: 100%; display: flex; font-weight: 600; color: orange;">
+    <form action="/sciript.js" method="post">
+        <h1 style="color: navy; text-align: center;">The Mightty Scholars <br><span style="font-size: large;  color: black;">Registration Form</span></h1>
+        <label for="name">Name</label>
+        <input required style="width: 100%; border-radius: 10px; border: none; padding: 5px; box-shadow: 1px 1px 1px 2px ;" type="text" name="name" id="name" placeholder="Enter Name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input required style="width: 100%; border-radius: 10px; border: none; padding: 5px; box-shadow: 1px 1px 1px 2px ;" type="email" name="email" id="email" placeholder="example@mail.com">
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input required style="width: 100%; border-radius: 10px; border: none; padding: 5px; box-shadow: 1px 1px 1px 2px ;" type="number" name="age" id="age" placeholder="enter your age">
+        <br>
+        <br>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+        </div>
+        <br>
+        <label for="dob">Date of Birth</label>
+        <input required style="width: 100%; border-radius: 10px; border: none; padding: 5px; box-shadow: 1px 1px 1px 2px ;" box-shadow: 1px 1px 1px 2px ; type="date" name="dob" id="dob">
+        <br>
+        <br>
+        <label for="summary">Summary</label>
+        <br>
+        <textarea style="width: 100%; border-radius: 10px; border: none; padding: 5px; box-shadow: 1px 1px 1px 2px ;" name="summary" id="summary"></textarea>
+        <br>
+        <br>
+        <button style="color: white; font-weight: 600; padding: 2px; background: blue; padding: 10px; border-radius: 10px; width: 100%; cursor: pointer;" type="submit">Submit</button>
+        
+    </form>
+</body>
+</html>
